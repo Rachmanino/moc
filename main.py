@@ -21,7 +21,6 @@ import wandb
 from tqdm import tqdm
 from loguru import logger
 
-from moc_pretain.pretraining_utils import seed_utils
 from pretraining_utils import training_utils, args_utils
 from pretraining_utils.dataloader import PreprocessedIterableDataset
 
@@ -51,7 +50,6 @@ c4_en_path = '/data/datasets/c4/en'
 
 # The method to choose from 
 model_choices = ['llama', 'sltrain', 'colam', 'moc']
-
 
 def parse_args(args):
     parser = argparse.ArgumentParser()
@@ -170,3 +168,10 @@ def evaluate_model(model, preprocess_batched, pad_idx, global_rank, world_size, 
 
 def main(args):
     raise NotImplementedError("This script is not ready for use yet.")
+
+if __name__ == "__main__":
+    print('Successfully import all necessary modules!') # For environment check
+    raise NotImplementedError("This script is not ready for use yet.")
+    print("Starting script")
+    args = parse_args(None)
+    main(args)
