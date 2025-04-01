@@ -1,1 +1,0 @@
-/home/wt/moc_pretrain/main.py
