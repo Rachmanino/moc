@@ -587,7 +587,7 @@ def main(args):
                         "final_eval_perplexity": np.exp(total_loss),
                         "final_eval_tokens": evaluated_on_tokens,
                     },
-                    step=global_step,
+                    step=update_step,
                 )
             logger.info(
                 f"Eval loss and ppl. at step {update_step}: {total_loss}, {np.exp(total_loss)}"
@@ -685,7 +685,7 @@ def main(args):
                 "final_eval_perplexity": np.exp(total_loss),
                 "final_eval_tokens": evaluated_on_tokens,
             },
-            step=global_step,
+            step=update_step,
         )
         logger.info(
             f"Eval loss and perplexity at step {update_step}: {total_loss}, {np.exp(total_loss)}"
