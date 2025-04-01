@@ -1,0 +1,7 @@
+{"time":"2025-04-01T15:28:27.157173715+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/wt/moc_pretrain/wandb/run-20250401_152827-8xmaxvo5/logs/debug-core.log"}
+{"time":"2025-04-01T15:28:27.27632911+08:00","level":"INFO","msg":"created new stream","id":"8xmaxvo5"}
+{"time":"2025-04-01T15:28:27.276410653+08:00","level":"INFO","msg":"stream: started","id":"8xmaxvo5"}
+{"time":"2025-04-01T15:28:27.276426591+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"8xmaxvo5"}
+{"time":"2025-04-01T15:28:27.276482372+08:00","level":"INFO","msg":"handler: started","stream_id":"8xmaxvo5"}
+{"time":"2025-04-01T15:28:27.27650555+08:00","level":"INFO","msg":"sender: started","stream_id":"8xmaxvo5"}
+{"time":"2025-04-01T15:28:27.747650212+08:00","level":"INFO","msg":"Starting system monitor"}

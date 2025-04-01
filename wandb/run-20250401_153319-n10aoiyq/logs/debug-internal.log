@@ -1,0 +1,17 @@
+{"time":"2025-04-01T15:33:19.055532567+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/wt/moc_pretrain/wandb/run-20250401_153319-n10aoiyq/logs/debug-core.log"}
+{"time":"2025-04-01T15:33:19.17061882+08:00","level":"INFO","msg":"created new stream","id":"n10aoiyq"}
+{"time":"2025-04-01T15:33:19.170718495+08:00","level":"INFO","msg":"stream: started","id":"n10aoiyq"}
+{"time":"2025-04-01T15:33:19.170796517+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"n10aoiyq"}
+{"time":"2025-04-01T15:33:19.170880146+08:00","level":"INFO","msg":"handler: started","stream_id":"n10aoiyq"}
+{"time":"2025-04-01T15:33:19.170856193+08:00","level":"INFO","msg":"sender: started","stream_id":"n10aoiyq"}
+{"time":"2025-04-01T15:33:19.573469+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-01T15:33:51.049126477+08:00","level":"INFO","msg":"stream: closing","id":"n10aoiyq"}
+{"time":"2025-04-01T15:33:51.049189005+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-01T15:33:51.050284521+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-01T15:33:51.904879292+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-01T15:33:52.197500057+08:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/rachmanino-peking-university/moc_pretrain/n10aoiyq/file_stream"}
+{"time":"2025-04-01T15:33:52.197588867+08:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/rachmanino-peking-university/moc_pretrain/n10aoiyq/file_stream: {\"error\":\"run moc_pretrain/n10aoiyq not found while streaming file\"}"}
+{"time":"2025-04-01T15:33:52.19866877+08:00","level":"INFO","msg":"handler: closed","stream_id":"n10aoiyq"}
+{"time":"2025-04-01T15:33:52.198701388+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"n10aoiyq"}
+{"time":"2025-04-01T15:33:52.198746653+08:00","level":"INFO","msg":"sender: closed","stream_id":"n10aoiyq"}
+{"time":"2025-04-01T15:33:52.198859014+08:00","level":"INFO","msg":"stream: closed","id":"n10aoiyq"}

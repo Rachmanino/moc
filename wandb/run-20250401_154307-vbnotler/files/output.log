@@ -1,0 +1,37 @@
+2025-04-01 15:43:08.378 | INFO     | __main__:main:231 - Using dist with rank 0 (only rank 0 will log)
+2025-04-01 15:43:08.379 | INFO     | __main__:main:232 - ****************************************
+2025-04-01 15:43:08.379 | INFO     | __main__:main:233 - Starting training with the arguments
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - model_type                     llama
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - run_name                       llama_60m-LR-0.006
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - wandb_project                  moc_pretrain
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - model_config                   configs/llama/llama_60m.json
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - continue_from                  None
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - batch_size                     256
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - gradient_accumulation          2
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - total_batch_size               512
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - max_length                     256
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - optimizer                      adamw
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - lr                             0.006
+2025-04-01 15:43:08.379 | INFO     | __main__:main:235 - scheduler                      cosine
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - min_lr_ratio                   0.1
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - activation_checkpointing       False
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - weight_decay                   0.0
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - warmup_steps                   1000
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - eval_every                     1000
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - num_training_steps             10000
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - max_train_tokens               None
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - save_every                     10000
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - save_dir                       checkpoints/llama_60m-2025-04-01-15-43-06
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - tags                           None
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - dtype                          bfloat16
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - workers                        8
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - seed                           42
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - grad_clipping                  0.0
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - beta1                          0.0
+2025-04-01 15:43:08.380 | INFO     | __main__:main:235 - single_gpu                     False
+2025-04-01 15:43:08.381 | INFO     | __main__:main:235 - rank                           128
+2025-04-01 15:43:08.381 | INFO     | __main__:main:235 - update_proj_gap                50
+2025-04-01 15:43:08.381 | INFO     | __main__:main:235 - galore_scale                   1.0
+2025-04-01 15:43:08.381 | INFO     | __main__:main:235 - proj_type                      std
+2025-04-01 15:43:08.381 | INFO     | __main__:main:236 - ****************************************
+2025-04-01 15:43:08.990 | INFO     | __main__:main:242 - Shuffling data with seed 42

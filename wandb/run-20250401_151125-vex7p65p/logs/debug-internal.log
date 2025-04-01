@@ -1,0 +1,15 @@
+{"time":"2025-04-01T15:11:25.972906496+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/wt/moc_pretrain/wandb/run-20250401_151125-vex7p65p/logs/debug-core.log"}
+{"time":"2025-04-01T15:11:26.090159151+08:00","level":"INFO","msg":"created new stream","id":"vex7p65p"}
+{"time":"2025-04-01T15:11:26.090249688+08:00","level":"INFO","msg":"stream: started","id":"vex7p65p"}
+{"time":"2025-04-01T15:11:26.09025419+08:00","level":"INFO","msg":"handler: started","stream_id":"vex7p65p"}
+{"time":"2025-04-01T15:11:26.0903002+08:00","level":"INFO","msg":"sender: started","stream_id":"vex7p65p"}
+{"time":"2025-04-01T15:11:26.090317897+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vex7p65p"}
+{"time":"2025-04-01T15:11:26.59803101+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-01T15:37:23.78793316+08:00","level":"INFO","msg":"stream: closing","id":"vex7p65p"}
+{"time":"2025-04-01T15:37:23.788003051+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-01T15:37:23.789150256+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-01T15:37:24.699820555+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-01T15:37:25.076109427+08:00","level":"INFO","msg":"handler: closed","stream_id":"vex7p65p"}
+{"time":"2025-04-01T15:37:25.076197313+08:00","level":"INFO","msg":"sender: closed","stream_id":"vex7p65p"}
+{"time":"2025-04-01T15:37:25.076200462+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vex7p65p"}
+{"time":"2025-04-01T15:37:25.076369153+08:00","level":"INFO","msg":"stream: closed","id":"vex7p65p"}

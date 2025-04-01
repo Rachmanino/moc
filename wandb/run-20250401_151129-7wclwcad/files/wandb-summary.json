@@ -1,0 +1,1 @@
+{"throughput_examples":561.5206875209673,"throughput_batches":2.1934401856287784,"_step":999,"loss":4.25,"max_memory":21843952640,"lr":0.005994,"tokens_seen":99879829,"throughput_tokens":110234.6266890527,"_wandb":{"runtime":944},"_runtime":944.788919235,"gradnorm":1.046875,"_timestamp":1.7434924320268257e+09}

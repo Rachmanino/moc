@@ -56,6 +56,8 @@ def parse_args(args):
     parser.add_argument(
         "--model_type", type=str, required=True, choices=model_choices
     )
+    parser.add_argument("--run_name", type=str, default=None)
+    parser.add_argument("--wandb_project", type=str, default="moc_pretrain")
     # For loading corresponding model configurations
     parser.add_argument("--model_config", type=str, required=True)
 
@@ -217,8 +219,10 @@ def main(args):
         logger.remove() # Only rank 0 will log
 
     if global_rank == 0:
+        model_name = args.model_config.split("/")[1]
+        model_name = model_name.split(".")[0]
         run_name = (
-            args.model_config
+            model_name
             if args.run_name is None
             else args.run_name
         )
@@ -575,7 +579,6 @@ def main(args):
                 world_size,
                 device,
                 args.batch_size,
-                eval_dataloader,
             )
             if global_rank == 0:
                 wandb.log(
@@ -673,7 +676,6 @@ def main(args):
         world_size,
         device,
         args.batch_size,
-        eval_dataloader,
     )
 
     if global_rank == 0:

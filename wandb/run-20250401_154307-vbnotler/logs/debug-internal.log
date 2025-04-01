@@ -1,0 +1,7 @@
+{"time":"2025-04-01T15:43:07.699612588+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/wt/moc_pretrain/wandb/run-20250401_154307-vbnotler/logs/debug-core.log"}
+{"time":"2025-04-01T15:43:07.817470431+08:00","level":"INFO","msg":"created new stream","id":"vbnotler"}
+{"time":"2025-04-01T15:43:07.817529464+08:00","level":"INFO","msg":"stream: started","id":"vbnotler"}
+{"time":"2025-04-01T15:43:07.817570589+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vbnotler"}
+{"time":"2025-04-01T15:43:07.817587914+08:00","level":"INFO","msg":"handler: started","stream_id":"vbnotler"}
+{"time":"2025-04-01T15:43:07.817612831+08:00","level":"INFO","msg":"sender: started","stream_id":"vbnotler"}
+{"time":"2025-04-01T15:43:08.226671637+08:00","level":"INFO","msg":"Starting system monitor"}

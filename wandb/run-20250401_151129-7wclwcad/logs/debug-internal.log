@@ -1,0 +1,15 @@
+{"time":"2025-04-01T15:11:29.135595648+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/wt/moc_pretrain/wandb/run-20250401_151129-7wclwcad/logs/debug-core.log"}
+{"time":"2025-04-01T15:11:29.255681565+08:00","level":"INFO","msg":"created new stream","id":"7wclwcad"}
+{"time":"2025-04-01T15:11:29.255799357+08:00","level":"INFO","msg":"stream: started","id":"7wclwcad"}
+{"time":"2025-04-01T15:11:29.255836146+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"7wclwcad"}
+{"time":"2025-04-01T15:11:29.255861611+08:00","level":"INFO","msg":"sender: started","stream_id":"7wclwcad"}
+{"time":"2025-04-01T15:11:29.255872169+08:00","level":"INFO","msg":"handler: started","stream_id":"7wclwcad"}
+{"time":"2025-04-01T15:11:29.747952114+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-01T15:27:13.92094758+08:00","level":"INFO","msg":"stream: closing","id":"7wclwcad"}
+{"time":"2025-04-01T15:27:13.920980357+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-01T15:27:13.921953014+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-01T15:27:15.377203659+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-01T15:27:15.741680523+08:00","level":"INFO","msg":"handler: closed","stream_id":"7wclwcad"}
+{"time":"2025-04-01T15:27:15.741744641+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7wclwcad"}
+{"time":"2025-04-01T15:27:15.741764183+08:00","level":"INFO","msg":"sender: closed","stream_id":"7wclwcad"}
+{"time":"2025-04-01T15:27:15.741910311+08:00","level":"INFO","msg":"stream: closed","id":"7wclwcad"}
