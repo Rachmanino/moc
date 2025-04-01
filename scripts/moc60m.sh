@@ -1,3 +1,4 @@
+# Mainly follows the settings in https://github.com/jiaweizzhao/GaLore
 DEVICE=${DEVICE-"0"}
 IFS=',' read -ra array <<< "$DEVICE"
 NGPU="${#array[@]}"
@@ -5,7 +6,7 @@ PORT=$(($RANDOM + 10000))
 
 RUN_NAME=${RUN_NAME:-"None"}
 CONFIG_NAME=${CONFIG_NAME:-"llama_60m"}
-LR=${LR:-"0.006"}
+LR=${LR:-"0.0025"}
 WD=${WD:-"0"}
 GC=${GC:-"0"}
 BZ=${BZ:-"256"}
@@ -43,4 +44,5 @@ CUDA_VISIBLE_DEVICES=$DEVICE torchrun --standalone --nproc-per-node=$NGPU --mast
     --dtype bfloat16 \
     --eval_every 1000 \
     --run_name $RUN_NAME \
+    --wandb_project moc-pretrain-60m \
     > ./results/moc/$RUN_NAME.log 2>&1 &
